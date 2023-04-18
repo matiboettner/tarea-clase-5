@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Tarea clase 5</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+
+<body>
+    <h1>INGRESE SU SALARIO ANUAL Y CALCULE SU SALARIO MENSUAL, SEMANAL Y</h1>
+    <div class="formulario">
+        <label for="salario-anual">Salario Anual:</label>
+        <input type="number" id="salario-anual" name="salario-anual" required>
+        <button onclick="calcularSalario()" id="boton-calcular">Calcular</button>
+    </div>
+    <div class="respuestas">
+        <p id="mensualmente"></p>
+        <p id="semanalmente"></p>
+        <p id="diariamente"></p>
+    </div>
+
+    <script src='main.js'></script>
+
+</body>
+
+</html>
